@@ -1,0 +1,176 @@
+========== HEADER ==========
+.nav__logo-circle
+R
+
+.nav__logo-name
+Rian Lot.
+
+.nav__title
+Menu
+
+.nav__name
+Rian
+
+.nav__link
+Home - About Me - Projects - Contact Me
+
+
+========== HOME ==========
+.home__name
+Rian Lot
+
+.home__social-link
+https://www.instagram.com/
+https://www.linkedin.com/
+https://github.com/
+
+.home__description
+<b>Frontend Developer</b>, with knowledge in web 
+development and design, I offer the best 
+projects resulting in quality work.
+
+.home__scroll-text
+Scroll Down
+
+
+========== ABOUT ==========
+.section__title-1
+About Me.
+
+.about__description
+Passionate about creating <b>Web Pages</b> with 
+<b>UI/UX User Interface</b>, I have years of 
+experience and many clients are happy with 
+the projects carried out.
+
+.about__item
+<b>My Skills Are:</b> HTML, CSS, JavaScript, 
+React, Git & GitHub, Bootstrap, Flutter & 
+Figma.
+
+.button
+Contact Me
+
+.button__ghost
+https://www.linkedin.com/
+
+
+========== SERVICES ==========
+.section__title-2
+Services.
+
+.services__title .services__description
+Web Design
+Beautiful and elegant designs with 
+interfaces that are intuitive, efficient 
+and pleasant  to use for the user.
+
+Development
+Custom web development tailored to your 
+specifications, designed to provide a 
+flawless user experience.
+
+Mobile App
+Design and transform website projects 
+into mobile apps to provide a seamless
+user experience.
+
+
+========== PROJECTS ==========
+.section__title-1
+Projects.
+
+.projects__subtitle 
+Website
+App
+
+.projects__title 
+Restaurant Website
+Yoga App
+Fast Food App
+Coffee Delivery Website
+Barbershop Website
+
+.projects__description
+Project that you carry out in the design 
+and structure of the layout, showing the 
+design at the client's request.
+
+.projects__link
+View
+
+https://github.com/
+https://dribbble.com/
+
+========== CONTACT ==========
+.section__title-2
+Contact Me.
+
+.contact__description-1
+I will read all emails. Send me any 
+message you want and I'll get back to you.
+
+.contact__description-2
+I need your <b>Name</b> and <b>Email Address</b>, but 
+you won't receive anything other than your reply.
+
+.contact__title
+Send Me A Message 
+
+.contact__label - placeholder
+First Name 
+Email Address
+Subject
+Message
+
+.contact__button
+Send Message
+
+.contact__social-description-1
+Does not send emails
+
+.contact__social-description-2
+Write me on my social networks
+
+.contact__social-link
+https://www.facebook.com/
+https://www.instagram.com/
+https://www.linkedin.com/
+
+
+========== CONTACT JS ==========
+// serviceID - templateID - #form - publicKey
+
+   // Show sent message
+      Message sent successfully ✅
+
+   // Remove message after five seconds
+
+   // Clear input fields
+
+   // Show error message
+      Message not sent (service error) ❌
+
+Subject *
+New message from {{user_name}}
+
+Content *
+Names: {{user_name}}
+
+Email: {{user_email}}
+
+Subject: {{user_subject}}
+
+Message: {{user_message}}
+
+Best wishes,
+EmailJS team
+
+
+========== FOOTER ==========
+.footer__links
+Home - About - Projects
+
+.footer__copy
+&#169; All Rights Reserved By 
+<a href="#">Bedimcode.</a>
