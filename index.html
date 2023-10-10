@@ -261,7 +261,7 @@
 
       <!--==================== PROJECTS ====================-->
       <section class="projects section" id="projects">
-        <h2 class="section__title-1">Projects.</h2>
+        <h2 class="section__title-1"><span>Projects.</span></h2>
 
         <div class="projects__container container grid">
           <article class="projects__card">
@@ -278,8 +278,8 @@
             </div>
 
             <div class="projects__content">
-              <h3 class="projects__subtitle"></h3>
-              <h2 class="projects__title"></h2>
+              <h3 class="projects__subtitle">E-commerce Website</h3>
+              <h2 class="projects__title">SleepOutside</h2>
 
               <p class="projects__description">
                 Projects that you can carry out in the design and structure of
@@ -287,13 +287,20 @@
               </p>
             </div>
 
-            <div class="projects__button">
+            <div class="projects__buttons">
               <a
-                href="https://www.github.com/"
+                href="https://github.com/dallingilbert/WDD330"
                 target="_blank"
                 class="projects__link"
               >
                 <i class="ri-github-line"></i> View
+              </a>
+              <a
+                href="https://precious-treacle-a247ab.netlify.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-window-2-line"></i> Website
               </a>
             </div>
           </article>
@@ -301,7 +308,7 @@
           <article class="projects__card">
             <div class="projects__image">
               <img
-                src="assets/img/project-1.jpg"
+                src="assets/img/project-3.jpg"
                 alt="image"
                 class="projects__img"
               />
@@ -321,7 +328,7 @@
               </p>
             </div>
 
-            <div class="projects__button">
+            <div class="projects__buttons">
               <a href="#" target="_blank" class="projects__link">
                 <i class="ri-github-line"></i> View
               </a>
@@ -331,7 +338,7 @@
           <article class="projects__card">
             <div class="projects__image">
               <img
-                src="assets/img/project-1.jpg"
+                src="assets/img/project-2.jpg"
                 alt="image"
                 class="projects__img"
               />
@@ -351,7 +358,7 @@
               </p>
             </div>
 
-            <div class="projects__button">
+            <div class="projects__buttons">
               <a
                 href="https://www.github.com/"
                 target="_blank"
@@ -365,7 +372,7 @@
           <article class="projects__card">
             <div class="projects__image">
               <img
-                src="assets/img/project-1.jpg"
+                src="assets/img/project-3.jpg"
                 alt="image"
                 class="projects__img"
               />
@@ -385,7 +392,7 @@
               </p>
             </div>
 
-            <div class="projects__button">
+            <div class="projects__buttons">
               <a
                 href="https://www.github.com/"
                 target="_blank"
@@ -399,7 +406,116 @@
       </section>
 
       <!--==================== CONTACT ====================-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
+            <h2 class="section__title-2">
+              <span>Contact Me.</span>
+            </h2>
+
+            <p class="contact__description-1">
+              I will read all your emails. Send me any message you want and I'll
+              get back to you.
+            </p>
+
+            <p class="contact__description-2">
+              I need your <b>Name</b> and <b>Email Address</b>, but you won't
+              receive anything other than a reply from me!
+            </p>
+
+            <div class="geometric-box"></div>
+          </div>
+
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me A Message</h2>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
+                </div>
+
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
+                </div>
+              </div>
+
+              <div class="contact__box">
+                <input
+                  name="user_subject"
+                  id="subject"
+                  class="contact__input"
+                  required
+                  placeholder="Subject"
+                ></input>
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="subject" class="contact__label"></label>
+              </div>
+
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+          <div class="contact__social">
+            <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  Does not send emails
+                </p>
+
+                <p class="contact__social-description-2">
+                  Write me on my social networks
+                </p>
+              </div>
+
+              <div class="contact__social-links">
+                <a href="https://www.facebook.com/" target="_blank" class="contact__social-link">
+                  <i class="ri-facebook-circle-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
+                  <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank" class="contact__social-link">
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--==================== FOOTER ====================-->
